@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fragment_bg2"
+    tools:context=".F2Fragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="F2 Page"
+        android:textSize="26sp"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/showMainCreateresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show Main Create result"
+        android:textSize="26sp"
+        android:gravity="center_horizontal"
+        />
+</LinearLayout>

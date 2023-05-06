@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fragment_bg1"
+    tools:context=".F1Fragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="F1 Page"
+        android:textSize="26sp"
+        android:gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/createMainLottery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create main Lottery"
+        />
+
+</LinearLayout>
