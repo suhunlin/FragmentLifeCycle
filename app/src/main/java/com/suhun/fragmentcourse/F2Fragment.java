@@ -74,4 +74,5 @@ public class F2Fragment extends Fragment {
         myData.fragment2Lottery = new Random().nextInt(49) + 1;
         showFragment2Lottery.setText(""+ myData.fragment2Lottery);
     }
+
 }
